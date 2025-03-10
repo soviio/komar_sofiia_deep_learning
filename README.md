@@ -3,10 +3,10 @@
 ## Dataset - Intel Image Classification
 link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classification?resource=download
 ## Content
-- **6 класів**, які містить зображення наступних типів місцевостей:
-  - Buildings
-  - Forest
-  - Glacier
-  - Mountain
-  - Sea
-  - Street
+6 класів, які містить зображення наступних типів місцевостей:
+  - buildings
+  - forest
+  - glacier
+  - mountain
+  - sea
+  - street
