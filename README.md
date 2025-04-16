@@ -67,9 +67,11 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 
 ## Optuna (для пошуку гіперпараметрів)
 Модель базується на 4-х згорткових шарах:
+
 `conv1 → conv2 → conv3 → conv4 → Flatten → FC(512) → FC(256) → Output(6)`
 
 Найкраща конфігурація:
+
 `{
     'batch_size': 32,
     'lr': 0.000473,
@@ -85,8 +87,8 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 <img src="https://github.com/user-attachments/assets/15211984-0e83-415a-936a-a56b79edcedc" alt="image" width="550" />
 
 Cлабкі місця:
-"glacier" ↔ "mountain" плутаються дуже часто → можна покращити розпізнавання текстур
-"street" ↔ "buildings" — ще одна зона з високою плутаниною
+- "glacier" ↔ "mountain" плутаються дуже часто → можна покращити розпізнавання текстур
+- "street" ↔ "buildings" — ще одна зона з високою плутаниною
 
 ## Part 4
 
