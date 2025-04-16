@@ -25,8 +25,11 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 
 ## Архітектура моделі
 `Conv2D(3 → 32) + ReLU → MaxPool(2x2)   # 150×150 → 75×75`
+
 `Conv2D(32 → 64) + ReLU → MaxPool(2x2)  # 75×75 → 37×37`
+
 `Conv2D(64 → 128) + ReLU → MaxPool(2x2) # 37×37 → 18×18`
+
 `Flatten → FC(128*18*18 → 256) → Dropout(0.5) → FC(256 → 128) → FC(128 → 6)`
 
 На цьому етапі маємо:
