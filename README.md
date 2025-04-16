@@ -96,10 +96,15 @@ Cлабкі місця:
 Ми адаптуємо fc-шар під наші 6 категорій (buildings, forest, glacier, mountain, sea, street):
 
 `model.fc = nn.Sequential(`
+
     `nn.Linear(model.fc.in_features, 512),`
+    
     `nn.ReLU(),`
+    
     `nn.Dropout(0.5),`
+    
    ` nn.Linear(512, 6)  # 6 класів`
+   
 `)`
 
 ## Confusion Matrix
