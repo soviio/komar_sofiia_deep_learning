@@ -1,4 +1,3 @@
-# komar_sofiia_deep_learning
 ## Part 1
 Підготовка до проекту: короткий опис та інструкція по налаштуванню середовища
 ## Intel Image Classification
