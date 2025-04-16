@@ -48,6 +48,7 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 
 ## Архітектурна оптимізація CNNModel1
 Додано 4-й згортковий шар + MaxPooling → розмір зменшено до 8×8. Повнозв’язані шари стали глибшими, Dropout залишено на рівні 0.5.
+
 `self.conv4 = nn.Conv2d(128, 256, kernel_size=3, padding=1)  # новий шар`
 
 `self.fc1 = nn.Linear(256 * 8 * 8, 512)  # більша кількість нейронів`
