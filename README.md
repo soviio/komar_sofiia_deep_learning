@@ -37,3 +37,6 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 - Поступове зменшення розміру зображення: 150 → 75 → 37 → 18
 - Повнозв’язані шари з дропаутом для регуляризації
 - Оптимальну глибину для початкового експерименту з класифікацією
+
+![image](https://github.com/user-attachments/assets/aea62cd0-dad9-4f40-a1bd-0f656122fe30)
+
