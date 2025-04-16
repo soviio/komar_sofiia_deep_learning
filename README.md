@@ -38,5 +38,5 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 - Повнозв’язані шари з дропаутом для регуляризації
 - Оптимальну глибину для початкового експерименту з класифікацією
 
-![image](https://github.com/user-attachments/assets/aea62cd0-dad9-4f40-a1bd-0f656122fe30)
+<img src="[https://github.com/user-attachments/assets/2dfe9664-c4eb-4adc-becd-5cb29d57a2a0](https://github.com/user-attachments/assets/72e7e8cc-ff62-465a-a71e-cbfa26090482)" alt="eda_pic" width="600" />
 
