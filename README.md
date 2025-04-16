@@ -22,6 +22,7 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 Вхідні зображення мають розмір 150x150, а кількість каналів — 3 (RGB). 
 Після трьох згорткових шарів з пулінгом отримуємо вектор для подальшої класифікації.
 На цьому етапі досягнута Train Accuracy ≈ 91%, Validation Accuracy ≈ 83%, що є хорошим результатом для простої моделі.
+<img src="https://github.com/user-attachments/assets/e6f682de-636d-4b83-b082-236ff103ccbb" alt="image" width="550" />
 
 ## Архітектура моделі
 `Conv2D(3 → 32) + ReLU → MaxPool(2x2)   # 150×150 → 75×75`
@@ -41,5 +42,3 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 
 
 
-
-<img src="https://github.com/user-attachments/assets/e6f682de-636d-4b83-b082-236ff103ccbb" alt="image" width="550" />
