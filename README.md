@@ -84,7 +84,7 @@ link on Kaggle -> https://www.kaggle.com/datasets/puneet6060/intel-image-classif
 - За 5 спроб Optuna знайшла набір гіперпараметрів, близький до оптимального
 
 ## Confusion Matrix
-<img src="https://github.com/user-attachments/assets/15211984-0e83-415a-936a-a56b79edcedc" alt="image" width="550" />
+<img src="https://github.com/user-attachments/assets/15211984-0e83-415a-936a-a56b79edcedc" alt="image" width="350" />
 
 Cлабкі місця:
 - "glacier" ↔ "mountain" плутаються дуже часто → можна покращити розпізнавання текстур
